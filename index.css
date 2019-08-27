@@ -1,0 +1,196 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* --------------------------END OF CSS RESET--------------------*/ 
+.blog p{
+    margin-top: 15px;
+
+}
+p::first-letter {
+    font-size: 50px;
+
+  }
+  
+.flex-container{
+    background-color:#f0efef;
+    display: flex;
+    flex-direction: row;
+    padding:50px;
+
+}
+#blog-container{
+    flex: 700px;
+    margin-left:50px;
+    margin-right:20px;
+
+
+}
+.blog{
+    border-bottom: 1px solid black;
+    padding-bottom: 50px;
+    padding-top: 20px;
+
+}   
+.blog a{
+    float:right;
+
+}
+.blog h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom:20px;
+
+}
+
+#side-nav{
+    flex:240px;
+    margin-right:20px;
+
+}
+
+#side-nav h3{
+    font-size:32px;
+    font-weight: bolder;
+    color:#033048;
+    margin-bottom:12px;
+}
+
+.categories li{
+    margin:2px;    
+    /*! text-decoration: none; */
+}
+#side-nav div{
+    margin-bottom: 30px;
+
+}
+/* end of css for blog layout*/
+
+/*start of footer css*/ 
+.signup{
+    width:100%;
+    height:60px;
+    background-color:#f9e42e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+footer button{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: #606161;
+    border: 0px;
+    width: 160px;
+    height: 33px;
+    color: white;
+}
+footer h1{
+    color: #f9e42e;
+    font-size:24px;
+    font-weight: bolder;
+    margin-bottom:25px;
+
+}
+
+footer a{
+    margin: 20px;
+    
+}
+.social{
+    width:100%;
+    height:200px;
+    background-color:#606161;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h6{
+    margin-top: 20px;
+    font-size: 9px;
+    color:white;
+    font-weight: semibold;
+
+}
+
+/* end of css for footer*/ 
+
+/* start of nav CSS*/ 
+nav a{
+    display:block;
+    color:white;
+    float:left;
+    padding:15px;
+    text-decoration: none;
+    color:#f9e42e;
+
+
+
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #033048;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+#logo {
+    padding-left: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    font-weight: bolder;
+    
+}
+#nav-links{
+    padding-right: 60px;
+}
+/* end of nav css*/
