@@ -2,6 +2,9 @@
 
 ## Design Mock-ups and Annotations
 
+####COMPLETED MOCK UP https://robertemmet312.github.io/Relaxr-Blog/ 
+
+
 See below for mock-ups.
 
 See the design file for style details such as font size, font-family, copy, etc...
